@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="user">
+            <img src="images/pic.jpg" alt="">
+            <h3 class="name">Mariam Neaz</h3>
+            <p class="post">Back-end Developer</p>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <div id="menu" class="fas fa-bars"></div>
+
+
+    <section class="home" id="home">
+        <h3>HI THERE !</h3>
+        <h1>I'M <span>Mariam Neaz</span></h1>
+        <p>I'm an undergraduate at FAST university, Karachi. I'm doing bachelor's in Software Engineering. I have always been passionate about backend development. I am a good observer, quick learner and possess strong problem solving skills. I'm pursuing my goal of becoming a backend developer and am acquiring all the necessary skills to work in this industry.</p>
+    </section>
+
+
+    <section class="education" id="education">
+        <h1 class="heading"> my <span>Education</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-graduation-cap"> </i>
+                    <span>2015-2017</span>
+                    <h3>Matriculation (CS)</h3>
+                    <p>From Pakistan Int'l School Jeddah</p>
+                    <p>Jeddah, Saudi Arabia</p>
+               
+            </div>
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                    <span>2017-2019</span>
+                    <h3>Intermediate (Pre-Engineering)</h3>
+                    <p>From Pakistan Int'l School Jeddah.</p>
+                    <p>Jeddah, Saudi Arabia</p>
+                
+            </div>
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                    <span>2019-2023</span>
+                    <h3>Bachelor's (Software Engineering)</h3>
+                    <p>From National University of Computer and Emerging Science</p>
+                    <p>Karachi, Pakistan</p>
+                
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="projects" id="projects">
+        <h1 class="heading"> my <span>Projects</span></h1><br>
+        <input type="text" id="myInput" placeholder="Search for projects..">
+
+        <div class="box-container">
+        <ul id="myUL">
+        <li><div class="box">
+            <i class="fas fa-project-diagram"></i>
+                <span>C++</span>
+                <h3>Pet Store Management System</h3>
+                <p>A C++ based pet store management system. It allows the user to add, delete, view, and update inventory while keeping track of the store's inventory. Also, it locates the right pet companion for mating.</p>
+        </div></li>
+        <li><div class="box">
+            <i class="fas fa-project-diagram"></i>
+                <span>Python</span>
+                <h3>Face Mask Detection System</h3>
+                <p>Labelled the images for object detection using labelImg python file. Trained and ran a custom object detector for face mask detection. Used transfer learning to train on top of existing SOTA model. Used Tf2 for training this model.Trained model integrated to the android studio.</p>
+        </div></li>
+
+        <li><div class="box">
+            <i class="fas fa-project-diagram"></i>
+                <span>C</span>
+                <h3>COMPARISON OF SORTING ALGORITHMS</h3>
+                <p>Compared three sorting algorithms i.e.
+                    Merge Sort, Quick Sort and Radix Sort using multi-process and multi-thread. Each algorithm was analyzed with respect to time by providing different
+                    number of elements.</p>
+        </div></li>
+        <li><div class="box">
+            <i class="fas fa-project-diagram"></i>
+                <span>PHP</span>
+                <h3>FROOTVROOT - AN ONLINE GROCERY SHOPPING WEBSITE</h3>
+                <p>FrootVroot enables its customers to buy fresh fruits and vegetables online. The front-end of the website was developed using ReactJs and css. The back-end of the website was developed using php. The database used was phpMyAdmin/MySQL.</p>
+        </div></li>
+
+        <li><div class="box">
+            <i class="fas fa-project-diagram"></i>
+                <span>FLUTTER</span>
+                <h3>IHSAAN - FUNDRAISING PLATFORM</h3>
+                <p>Fundraising platform consisting of two types of users, i.e. Donor and Recipient. A fully function android mobile application developed in flutter and firebase. ML model in python for detecting hate speech in the fundraising campaign description.</p>
+        </div></li>
+        <li><div class="box">
+            <i class="fas fa-project-diagram"></i>
+                <span>PYTHON</span>
+                <h3>LAPBOT</h3>
+                <p>A chatbot that recommends most suitable laptop according to user requirements. Trained the recommendation system using naive bayes algorithm, integrating thE recommendation system into the chatbot using DialogFlow.</p>
+        </div></li>
+        <li><div class="box">
+            <i class="fas fa-project-diagram"></i>
+                <span>JAVA</span>
+                <h3>Fast NUCES STUDENT SOCIETY VOTING SYSTEM</h3>
+                <p>A dekstop application for students of FAST developed in java and database on workbench MySQL. The purpose of this project is to enable students and faculty to vote for the excom of each society. The candidated running for any excom position can upload video and description to convinve students to vote for them. </p>
+        </div></li>
+        </ul>
+    </div>
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    
+    <script src="js/script.js"></script>
+    
+    
+</body>
+</html>
